@@ -1,0 +1,35 @@
+.navbar{
+    min-height: 500px;
+    background-image: url(../img/fondoPrueba1.jpg);
+    background-size: cover;
+}
+
+.navbar a{
+    color: white;
+    transition: 1.5s;
+}
+.navbar-nav a:hover{
+   
+    color: #b314e4;
+    transition: 0.5s;
+}
+
+.bi{
+    font-size: 5rem;
+    color:white;
+}
+.avatar1{
+    background-color: black;
+    min-height: 350px;
+}
+.avatar2 img{
+    display: relative;
+    z-index: 5;
+    height: 15rem;
+    width: 15rem;
+    margin-top: -7rem;
+    padding: 0;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
