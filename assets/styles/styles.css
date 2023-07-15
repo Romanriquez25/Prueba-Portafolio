@@ -2,30 +2,40 @@
     border: 0;
     padding: 0;
     box-sizing: content-box;
+    font-family: 'Major Mono Display', monospace;
+
+    
 }
 .navbar{
     min-height: 500px;
     background-image: url(../img/fondoPrueba1.jpg);
     background-size: cover;
+    opacity: 80%;
 }
 
 .navbar a{
     color: white;
-    transition: s;
+    transition: 2s;
+    
+    
 }
 .navbar-nav a:hover{
    
     color: #b314e4;
+    transform: scale(1.2);
     transition: 0.5s;
+    transition-delay: ease-in-out;
+    
 }
 
 .bi{
-    font-size: 5rem;
-    color:white;
+    font-size: 40px;
+    color:rgb(76, 49, 173);
 }
 .avatar1{
     background-color: black;
     min-height: 350px;
+    opacity: 80%;
 }
 .avatar2 img{
     z-index: 5;
@@ -37,3 +47,13 @@
     background-color: aliceblue;
 }
 
+
+
+.img-portafolio{
+    width: 200px;
+}
+
+.body{
+    background-image: url(../img/fondo.3d.prueba2.jpg);
+    background-size: cover;
+}
