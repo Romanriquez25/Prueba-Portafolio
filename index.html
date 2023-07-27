@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Major+Mono+Display&display=swap" rel="stylesheet">
     <title>RoManriquez | FrontEnd</title>
 </head>
-<body">    
+<body>    
     <header>
             <nav class="container navbar navbar-expand-lg d-flex justify-content-center">
                 <div class="container-fluid ">
@@ -20,10 +20,12 @@
                     <span class="bi bi-controller px-4"></span>
                   </button>
                   <div class=" col-4 navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="container-fluid navbar-nav fs-4 fw-bolder d-flex gap-5 justify-content-center">
-                      <a class="nav-link" aria-current="page" href="#">Curriculum</a>
-                      <a class="nav-link" href="#">Portafolio</a>
-                      <a class="nav-link" href="#">contacto</a>
+                    <div class="container-fluid nav nav-pills fs-4 fw-bolder d-flex gap-5 justify-content-center">
+                      <div class="nav-item d-flex gap-5">
+                      <a class="nav-link" aria-current="page" href="#scroll1">Curriculum</a>
+                      <a class="nav-link" href="#scroll2">Portafolio</a>
+                      <a class="nav-link" href="#scroll3">contacto</a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -33,8 +35,8 @@
                 <div class="row avatar2 justify-content-center">
                     <img class="border border-5" src="./assets/img/fondo.3d.prueba.jpg" alt="">
                 </div>
-                <div class="container-fluid mt-5 bg-black bg-opacity-75 text-light">
-                  <h2 class="d-flex justify-content-center m-5">Rodrigo Manriquez Alvarado</h2>
+                <div data-bs-spy="scroll" class="container-fluid  mt-5 bg-black bg-opacity-75 text-light">
+                  <h2 class="d-flex justify-content-center m-5" id="scroll1">Rodrigo Manriquez Alvarado</h2>
                   <div class="row d-flex ">
                     <div class="col border p-5 text-center">
                       <h2 class="text-bg-dark">¿Quién soy?</h2>
@@ -79,10 +81,10 @@
                 <div class="col d-flex justify-content-center"><img class="cadenas-img" src="./assets/img/cadenas.png" alt=""></div>
               </div>
             </div>
-            <div class="container border border-1">
+            <div data-bs-spy="scroll" class="container border border-1">
               <div class="row d-flex justify-content-center">
                 <div class="col-12 border border-1 bg-black bg-opacity-75">
-                <h2 class="text-center mt-5 bg-black text-light">Portafolio</h2>
+                <h2 class="text-center mt-5 bg-black text-light" id="scroll2">Portafolio</h2>
                 <h2 class="blockquote-footer text-center mt-1 text-bg-primary">Game store: Tienda de Periféricos Gamer.</h2>
                 <h2 class="blockquote-footer text-center mt-1 text-bg-primary">Cuppon: Tienda de descuentos On-line</h2>
               </div>
@@ -138,8 +140,8 @@
               </div>
             </div>
             <!-- form-->
-            <div class="container border bg-black bg-opacity-75 border-1">
-              <h2 class="text-center  text-light" >Contacto</h2>
+            <div data-bs-spy="scroll" class="container border bg-black bg-opacity-75 border-1">
+              <h2 class="text-center  text-light" id="scroll3">Contacto</h2>
               <div class="row d-flex flex-column">
                 <div class="col">
                   <div class="mb-3 my-5">

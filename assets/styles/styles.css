@@ -47,6 +47,8 @@
 body{
     background-image: url(../img/fondo.3d.prueba2.jpg);
     background-size: cover;
+    overflow: scroll;
+    position: relative;
 }
 
 .navbar-nav a{
