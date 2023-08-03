@@ -11,10 +11,9 @@
     background-image: url(../img/fondoPrueba1.jpg);
     background-size: cover;
     opacity: 80%;
-
+    position: sticky;
+    top: 0;
 }
-
-
 
 
 .bi{
@@ -45,13 +44,14 @@
 }
 
 body{
+    height: 100vh;
     background-image: url(../img/fondo.3d.prueba2.jpg);
     background-size: cover;
     overflow: scroll;
     position: relative;
 }
 
-.navbar-nav a{
+.nav-item a{
     color: white;
 }
 
@@ -122,6 +122,11 @@ body{
         }
         .cadenas{
             height: 5rem;
+        }
+
+        .nav-item{
+            display: flex;
+            flex-direction: column;
         }
     
     }
